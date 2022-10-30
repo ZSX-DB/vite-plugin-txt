@@ -1,0 +1,29 @@
+{
+  "name": "vite-plugin-txt",
+  "version": "1.0.1",
+  "description": "Import txt files in vite",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "tsc -w -p .",
+    "build": "rm -rf dist && tsc -p .",
+    "lint": "eslint . --ext .ts"
+  },
+  "keywords": [
+    "vite",
+    "txt"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "7.18.0",
+    "@types/node": "^16.0.0",
+    "@typescript-eslint/eslint-plugin": "5.32.0",
+    "@typescript-eslint/parser": "5.32.0",
+    "eslint": "8.21.0",
+    "typescript": "4.7.4",
+    "vite": "3.0.4"
+  }
+}
